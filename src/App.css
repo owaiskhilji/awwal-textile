@@ -1,0 +1,76 @@
+.body{
+  background-color: #D4D4D4;
+}
+
+
+.slider-container {
+  position: relative;
+}
+
+.slider-container::before,
+.slider-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 15%; 
+  z-index: 2;
+  pointer-events: none; 
+}
+
+.slider-container::before {
+  left: 0;
+  background: linear-gradient(to right, white, transparent);
+}
+
+.slider-container::after {
+  right: 0;
+  background: linear-gradient(to left, white, transparent);
+}
+
+
+
+
+/* CARD SLIDER */
+/* transform: skewX(-10deg);
+transform-origin: bottom right;
+transition: transform 0.3s ease-in-out; */
+
+.card-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 130%;
+  height: 0;
+}
+
+@media (max-width: 640px) {
+  .card-container {
+    padding-bottom: 150%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-container {
+    padding-bottom: 170%;
+  }
+}
+
+
+.card-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slick-center .card-container {
+  transform: skewX(0deg);
+}
+
+.slick-center .card-container img {
+  transform: skewX(0deg);
+}
+
