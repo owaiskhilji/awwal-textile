@@ -90,7 +90,7 @@ const About = () => {
           <Link
             to="/about"
             data-aos="fade-up"
-            className="border border-gray-900 text-gray-900 font-semibold tracking-wider uppercase py-3 px-6 rounded-[10px] shadow-lg transition-all duration-300 hover:bg-gray-900 hover:text-white"
+            className="border border-gray-900 text-gray-900 font-semibold tracking-wider uppercase py-3 px-6 rounded-[10px] shadow-lg transition-all duration-300 hover:bg-gray-900 hover:text-white hover:shadow-textcolor"
           >
             Learn More →
           </Link>

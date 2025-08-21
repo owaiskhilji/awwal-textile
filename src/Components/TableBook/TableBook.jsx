@@ -27,7 +27,7 @@ You can email us directly at :
     </p>
     <div className="modal-action flex justify-center">
       <form method="dialog">
-        <button className=" bg-textcolor text-white w-[300px] p-2 rounded-md">Close</button>
+        <button className=" bg-gray-900 hover:shadow-textcolor text-white w-[300px] p-2 rounded-md shadow-lg transition-all duration-300 ">Close</button>
       </form>
     </div>
   </div>

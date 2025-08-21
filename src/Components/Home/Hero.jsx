@@ -55,7 +55,7 @@ export default function Hero() {
               onClick={() => navigate("/men")}
               data-aos="fade-right"
               data-aos-delay="400"
-              className="bg-gray-900 text-white font-semibold tracking-wider uppercase py-3 px-6 rounded-[10px] shadow-lg transition-all duration-300 hover:bg-gray-700"
+              className="bg-gray-900 text-white font-semibold tracking-wider uppercase py-3 px-6 rounded-[10px] shadow-lg transition-all duration-300 hover:shadow-textcolor"
             >
               View Gallery
             </button>
@@ -63,7 +63,7 @@ export default function Hero() {
               onClick={() => navigate("/contact")}
               data-aos="fade-right"
               data-aos-delay="600"
-              className="border border-gray-900 text-gray-900 font-semibold tracking-wider uppercase py-3 px-6 rounded-[10px] shadow-lg transition-all duration-300 hover:bg-gray-900 hover:text-white"
+              className="border hover:shadow-textcolor border-gray-900 text-gray-900 font-semibold tracking-wider uppercase py-3 px-6 rounded-[10px] shadow-lg transition-all duration-300 hover:bg-gray-900 hover:text-white"
             >
               Contact Me
             </button>

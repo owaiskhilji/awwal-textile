@@ -91,8 +91,7 @@ return (
               ></textarea>
               <button
                 type="submit"
-                // className="w-full bg-black text-white py-3 rounded uppercase tracking-wide hover:bg-textcolor"
-                className="w-full hover:border hover:border-gray-900 text-white font-semibold tracking-wider uppercase py-3 px-6 rounded-[10px] shadow-lg transition-all duration-300 bg-gray-900 hover:bg-transparent hover:text-gray-900 hover:shadow-gray-900"
+                className="w-full text-white font-semibold tracking-wider uppercase py-3 px-6 rounded-[10px] shadow-lg transition-all duration-300 bg-gray-900 hover:shadow-textcolor"
               >
                 Submit
               </button>
