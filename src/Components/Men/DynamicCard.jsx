@@ -32,7 +32,7 @@ const DynamicCard = () => {
         <div
           className="flex flex-col justify-center items-center shadow-sm shadow-black w-64 h-72 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-96 lg:w-[630px] lg:h-[600px] p-4"
         >
-          <h2 className="text-center text-2xl font-bold mb-2">Aw'wal Textiles Merchandise</h2>
+          <h2 className="text-center text-2xl font-bold mb-2">Awwal Textiles Merchandise</h2>
           <p className="description text-center text-gray-600 w-full lg:w-96">
             Explore exclusive Aw'wal Textiles merchandise, from t-shirts to notebooks. Each product reflects quality and modern style.
           </p>
