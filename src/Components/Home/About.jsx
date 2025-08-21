@@ -1,80 +1,3 @@
-// import React from 'react';
-// import AOS from "aos";
-// import "aos/dist/aos.css";
-// import { useEffect } from 'react';
-// import machine from "../../assets/About/machine.jpg"
-// import team from "../../assets/About/team.png"
-// import thread from "../../assets/About/thread.png"
-// import { Link } from 'react-router-dom';
-
-
-
-// const About = () => {useEffect(() => {
-//     AOS.init({
-//       duration: 2000, 
-//       once: true,   
-//     });
-//   }, []);
-
-
-
-
-//   return (
-//     <div className="relative flex flex-col md:flex-row my-8 lg:my-16 px-4 md:px-8 py-10 lg:py-12 gap-8 font-inter bg-transparent">
-      
-//       <div  data-aos="fade-right"
-//  className="relative z-20 w-full md:w-1/2 mb-7 md:mb-0 space-y-6">
-//         <p className="text-xl sm:text-2xl font-semibold text-gray-800">About us</p>
-//         <h3 className="text-2xl sm:text-3xl lg:text-5xl md:text-4xl font-semibold font-[inter] text-gray-800 uppercase">
-//           <span>AWWAL</span> - Textiles
-//         </h3>
-//         <p className="text-gray-600 font-sans text-md sm:text-lg md:text-lg lg:text-lg leading-relaxed mb-6">
-//     Grow your clothing brand with AWWAL Textiles. AWWAL Textiles is one of Pakistan’s leading clothing manufacturers and exporters. We specialize in wholesale and fully customized apparel for clients both locally and internationally.
-// <br/>
-// <br/>
-// From initial design concepts to bulk production and delivery, we support startups, SMEs, and established fashion brands in bringing their vision to life. <span className='text-blue-600 underline text-sm'><Link to="/about">see more</Link></span>
-//     </p>
-//       </div>
-      
-//       {/* Right Image Column */}
-//       <div data-aos="fade-left" className="py-16 relative z-0 w-full md:w-1/2 h-[270px] sm:min-h-[300px] lg:min-h-[400px]">
-//         <div className="relative w-full h-full">
-//           {/* Top-left image */}
-//           <div className="absolute top-0 left-0 w-1/2 z-10 border-4 border-white shadow-xl rounded-xl overflow-hidden">
-//             <img 
-//               className="w-full h-full object-cover" 
-//               src={thread} 
-//               alt="Person in green FILA outfit sitting on bench"
-//             />
-//           </div>
-          
-//           {/* Middle image */}
-//           <div className="absolute top-1/3 left-1/4 w-1/2 z-20 border-4 border-white shadow-xl rounded-xl overflow-hidden">
-//             <img 
-//               className="w-full h-full object-cover" 
-//               src={team} 
-//               alt="Person in red clothing in dynamic pose"
-//             />
-//           </div>
-          
-//           {/* Back-right image */}
-//           <div className="absolute top-1/2 right-0 w-2/5 z-0 border-4 border-white shadow-xl rounded-xl overflow-hidden">
-//             <img 
-//               className="w-full h-full object-cover" 
-//               src={machine} 
-//               alt="Supreme red box close-up"
-//             />
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default About;
-
-
-
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -89,7 +12,7 @@ const About = () => {
   }, []);
 
   return (
-    <section className="relative bg-transparent py-20 lg:py-28">
+    <section className="relative bg-transparent py-20 lg:py-28 ">
       <div className="container mx-auto px-6 lg:px-12">
 
         {/* Section Header */}

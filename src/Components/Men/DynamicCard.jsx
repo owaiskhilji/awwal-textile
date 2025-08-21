@@ -34,7 +34,7 @@ const DynamicCard = () => {
         >
           <h2 className="text-center text-2xl font-bold mb-2">Awwal Textiles Merchandise</h2>
           <p className="description text-center text-gray-600 w-full lg:w-96">
-            Explore exclusive Aw'wal Textiles merchandise, from t-shirts to notebooks. Each product reflects quality and modern style.
+            Explore exclusive Awwal Textiles merchandise, from t-shirts to notebooks. Each product reflects quality and modern style.
           </p>
         </div>
       </div>

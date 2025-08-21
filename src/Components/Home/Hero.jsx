@@ -31,7 +31,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="w-full h-[700px] lg:h-[600px] bg-white flex items-center justify-center px-10">
+    <div className="w-full h-[700px] lg:h-[600px] bg-white flex items-center justify-center px-10 ">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center w-full max-w-7xl">
         
         {/* Left Content */}
