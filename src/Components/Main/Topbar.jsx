@@ -146,11 +146,11 @@ const handleLinkClick = () => {
   </button>
   {isMobileGalleryOpen && (
     <ul className="pl-4 mt-2 space-y-2">
-      <li className=" hover:bg-gray-900 hover:rounded-[6px] text-gray-900 hover:text-white pl-2 py-1 h-7" ><Link onClick={handleLinkClick} to="/men" className="w-full h-full ">Men</Link></li>
-      <li className=" hover:bg-gray-900 hover:rounded-[6px] text-gray-900 hover:text-white pl-2 py-1 h-7"><Link onClick={handleLinkClick} to="/women" className="w-full h-full">Women</Link></li>
-      <li className=" hover:bg-gray-900 hover:rounded-[6px] text-gray-900 hover:text-white pl-2 py-1 h-7"><Link onClick={handleLinkClick} to="/kids" className="w-full h-full">Kids</Link></li>
-      <li className=" hover:bg-gray-900 hover:rounded-[6px] text-gray-900 hover:text-white pl-2 py-1 h-7"><Link onClick={handleLinkClick} to="/uniform" className="w-full h-full">Uniform</Link></li>
-      <li className=" hover:bg-gray-900 hover:rounded-[6px] text-gray-900 hover:text-white pl-2 py-1 h-7"><Link onClick={handleLinkClick} to="/house" className="w-full h-full ">HouseHold</Link></li>
+      <li className=" hover:underline text-gray-900 hover:text-white pl-2 py-1 h-7" ><Link onClick={handleLinkClick} to="/men" className="w-full h-full ">Men</Link></li>
+      <li className=" hover:underline text-gray-900 hover:text-white pl-2 py-1 h-7"><Link onClick={handleLinkClick} to="/women" className="w-full h-full">Women</Link></li>
+      <li className=" hover:underline text-gray-900 hover:text-white pl-2 py-1 h-7"><Link onClick={handleLinkClick} to="/kids" className="w-full h-full">Kids</Link></li>
+      <li className=" hover:underline text-gray-900 hover:text-white pl-2 py-1 h-7"><Link onClick={handleLinkClick} to="/uniform" className="w-full h-full">Uniform</Link></li>
+      <li className=" hover:underline text-gray-900 hover:text-white pl-2 py-1 h-7"><Link onClick={handleLinkClick} to="/house" className="w-full h-full ">HouseHold</Link></li>
     </ul>
   )}
 </li>
