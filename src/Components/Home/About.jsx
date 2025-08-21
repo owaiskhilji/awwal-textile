@@ -41,6 +41,7 @@ const About = () => {
               src={machine}
               alt="Our Machines"
               className="rounded-xl shadow-lg w-full h-[350px] object-cover"
+              loading="lazy"
             />
           </div>
         </div>
@@ -51,6 +52,7 @@ const About = () => {
             <img
               src={team}
               alt="Our Team"
+              loading="lazy"
               className="rounded-xl shadow-lg w-full h-[350px] object-cover"
             />
           </div>
@@ -80,6 +82,7 @@ const About = () => {
             <img
               src={thread}
               alt="Thread"
+              loading="lazy"
               className="rounded-xl shadow-lg w-full h-[350px] object-cover"
             />
           </div>

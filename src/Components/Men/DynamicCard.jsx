@@ -27,7 +27,7 @@ const DynamicCard = () => {
       className="md:w-[770px] lg:w-full flex flex-col md:flex-row items-center gap-4">
         <div className="mx-auto card bg-base-100 w-64 h-64 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-[385px] lg:w-[630px] lg:h-[600px] shadow-sm">
           <figure>
-            <img src={Shirt} alt="Classic Oxford Shirt" className="w-full h-full object-cover" />
+            <img src={Shirt} alt="Classic Oxford Shirt" className="w-full h-full object-cover" loading="lazy"/>
           </figure>
         </div>
         <div
@@ -46,7 +46,7 @@ const DynamicCard = () => {
       className="md:w-[770px] lg:w-full flex flex-col md:flex-row-reverse items-center gap-4">
         <div className="mx-auto card bg-base-100 w-64 h-64 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-[385px] lg:w-[630px] lg:h-[600px] shadow-sm">
           <figure>
-            <img src={Shirt2} alt="Slim Fit Casual Shirt" className="w-full h-full object-cover" />
+            <img src={Shirt2} alt="Slim Fit Casual Shirt" className="w-full h-full object-cover" loading="lazy" />
           </figure>
         </div>
         <div
@@ -65,7 +65,7 @@ const DynamicCard = () => {
       className="md:w-[770px] lg:w-full flex flex-col md:flex-row items-center gap-4">
         <div className="mx-auto card bg-base-100 w-64 h-64 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-[385px] lg:w-[630px] lg:h-[600px] shadow-sm">
           <figure>
-            <img src={Paint} alt="Relaxed Fit Chinos" className="w-full h-full object-cover" />
+            <img src={Paint} alt="Relaxed Fit Chinos" className="w-full h-full object-cover" loading="lazy" />
           </figure>
         </div>
         <div
@@ -84,7 +84,7 @@ const DynamicCard = () => {
       className="md:w-[770px] lg:w-full flex flex-col md:flex-row-reverse items-center gap-4">
         <div className="mx-auto card bg-base-100 w-64 h-64 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-[385px] lg:w-[630px] lg:h-[600px] shadow-sm">
           <figure>
-            <img src={Paint2} alt="Tailored Formal Pants" className="w-full h-full object-cover" />
+            <img src={Paint2} alt="Tailored Formal Pants" className="w-full h-full object-cover" loading="lazy" />
           </figure>
         </div>
         <div
@@ -103,7 +103,7 @@ const DynamicCard = () => {
       className="md:w-[770px] lg:w-full flex flex-col md:flex-row items-center gap-4">
         <div className="mx-auto card bg-base-100 w-64 h-64 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-[385px] lg:w-[630px] lg:h-[600px] shadow-sm">
           <figure>
-            <img src={Hoodie} alt="Cozy Pullover Hoodie" className="w-full h-full object-cover" />
+            <img src={Hoodie} alt="Cozy Pullover Hoodie" className="w-full h-full object-cover" loading="lazy" />
           </figure>
         </div>
         <div
@@ -123,7 +123,7 @@ const DynamicCard = () => {
       className="md:w-[770px] lg:w-full flex flex-col md:flex-row-reverse items-center gap-4">
         <div className="mx-auto card bg-base-100 w-64 h-64 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-[385px] lg:w-[630px] lg:h-[600px] shadow-sm">
           <figure>
-            <img src={cap} alt="Tailored Formal Pants" className="w-full h-full object-cover" />
+            <img src={cap} alt="Tailored Formal Pants" className="w-full h-full object-cover" loading="lazy"/>
           </figure>
         </div>
         <div

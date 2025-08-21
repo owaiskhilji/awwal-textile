@@ -77,6 +77,7 @@ export default function Hero() {
               key={index}
               src={slide.image}
               alt={slide.alt}
+              loading="lazy"
               className={`absolute w-full h-full object-cover rounded-2xl shadow-lg transition-all duration-1000 ease-in-out transform
                 ${index === currentIndex ? "opacity-100 scale-100" : "opacity-0 scale-95"}
               `}

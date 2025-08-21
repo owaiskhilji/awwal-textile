@@ -25,6 +25,7 @@ const Cards = () => {
             className="w-full h-full object-cover aspect-square lg:aspect-[3/2] transition-transform duration-500 group-hover:scale-110"
             src={men}
             alt="Men's Collection"
+            loading="lazy"
           />
           {/* Overlay with a gradient for a premium look */}
           <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-70 transition-opacity duration-500 group-hover:opacity-80"></div>
@@ -50,6 +51,7 @@ const Cards = () => {
               className="w-full h-full object-cover aspect-square transition-transform duration-500 group-hover:scale-110"
               src={women}
               alt="Women's Collection"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-70 transition-opacity duration-500 group-hover:opacity-80"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center text-white">
@@ -69,6 +71,7 @@ const Cards = () => {
               className="w-full h-full object-cover aspect-square transition-transform duration-500 group-hover:scale-110"
               src={kids}
               alt="Kids Collection"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-70 transition-opacity duration-500 group-hover:opacity-80"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center text-white">
@@ -88,6 +91,7 @@ const Cards = () => {
               className="w-full h-full object-cover aspect-square transition-transform duration-500 group-hover:scale-110"
               src={sport}
               alt="Sports Collection"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-70 transition-opacity duration-500 group-hover:opacity-80"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center text-white">
@@ -107,6 +111,7 @@ const Cards = () => {
               className="w-full h-full object-cover aspect-square transition-transform duration-500 group-hover:scale-110"
               src={household}
               alt="Household Items"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-70 transition-opacity duration-500 group-hover:opacity-80"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center text-white">

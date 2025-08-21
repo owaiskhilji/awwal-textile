@@ -23,7 +23,7 @@ const DynamicCard = () => {
       <div data-aos="fade-up" className="md:w-[770px] lg:w-full flex flex-col md:flex-row items-center gap-4">
         <div className="mx-auto card bg-base-100 w-64 h-64 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-[385px] lg:w-[630px] lg:h-[600px] shadow-sm">
           <figure>
-            <img src={bedsheet} alt="Luxury Bedsheet" className="w-full h-full object-cover" />
+            <img src={bedsheet} alt="Luxury Bedsheet" className="w-full h-full object-cover" loading="lazy" />
           </figure>
         </div>
         <div className="flex flex-col justify-center items-center shadow-sm shadow-black w-64 h-72 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-96 lg:w-[630px] lg:h-[600px] p-4">
@@ -37,7 +37,7 @@ const DynamicCard = () => {
       <div data-aos="fade-up" className="md:w-[770px] lg:w-full flex flex-col md:flex-row-reverse items-center gap-4">
         <div className="mx-auto card bg-base-100 w-64 h-64 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-[385px] lg:w-[630px] lg:h-[600px] shadow-sm">
           <figure>
-            <img src={pillowcover} alt="Signature Bed Sheets" className="w-full h-full object-cover" />
+            <img src={pillowcover} alt="Signature Bed Sheets" className="w-full h-full object-cover" loading="lazy" />
           </figure>
         </div>
         <div className="flex flex-col justify-center items-center shadow-sm shadow-black w-64 h-72 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-96 lg:w-[630px] lg:h-[600px] p-4">
@@ -52,7 +52,7 @@ const DynamicCard = () => {
       <div data-aos="fade-up" className="md:w-[770px] lg:w-full flex flex-col md:flex-row items-center gap-4">
         <div className="mx-auto card bg-base-100 w-64 h-64 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-[385px] lg:w-[630px] lg:h-[600px] shadow-sm">
           <figure>
-            <img src={perde} alt="Decorative Pillow Covers" className="w-full h-full object-cover" />
+            <img src={perde} alt="Decorative Pillow Covers" className="w-full h-full object-cover" loading="lazy" />
           </figure>
         </div>
         <div className="flex flex-col justify-center items-center shadow-sm shadow-black w-64 h-72 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-96 lg:w-[630px] lg:h-[600px] p-4">
@@ -67,7 +67,7 @@ const DynamicCard = () => {
       <div data-aos="fade-up" className="md:w-[770px] lg:w-full flex flex-col md:flex-row-reverse items-center gap-4">
         <div className="mx-auto card bg-base-100 w-64 h-64 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-[385px] lg:w-[630px] lg:h-[600px] shadow-sm">
           <figure>
-            <img src={sofacover} alt="Custom Pillow Covers" className="w-full h-full object-cover" />
+            <img src={sofacover} alt="Custom Pillow Covers" className="w-full h-full object-cover" loading="lazy" />
           </figure>
         </div>
         <div className="flex flex-col justify-center items-center shadow-sm shadow-black w-64 h-72 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-96 lg:w-[630px] lg:h-[600px] p-4">
@@ -82,7 +82,7 @@ const DynamicCard = () => {
       <div data-aos="fade-up" className="md:w-[770px] lg:w-full flex flex-col md:flex-row items-center gap-4">
         <div className="mx-auto card bg-base-100 w-64 h-64 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-[385px] lg:w-[630px] lg:h-[600px] shadow-sm">
           <figure>
-            <img src={bathtowel} alt="Decorative Pillow Covers" className="w-full h-full object-cover" />
+            <img src={bathtowel} alt="Decorative Pillow Covers" className="w-full h-full object-cover" loading="lazy" />
           </figure>
         </div>
         <div className="flex flex-col justify-center items-center shadow-sm shadow-black w-64 h-72 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-96 lg:w-[630px] lg:h-[600px] p-4">
@@ -96,7 +96,7 @@ const DynamicCard = () => {
       <div data-aos="fade-up" className="md:w-[770px] lg:w-full flex flex-col md:flex-row-reverse items-center gap-4">
         <div className="mx-auto card bg-base-100 w-64 h-64 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-[385px] lg:w-[630px] lg:h-[600px] shadow-sm">
           <figure>
-            <img src={towel} alt="Custom Pillow Covers" className="w-full h-full object-cover" />
+            <img src={towel} alt="Custom Pillow Covers" className="w-full h-full object-cover" loading="lazy" />
           </figure>
         </div>
         <div className="flex flex-col justify-center items-center shadow-sm shadow-black w-64 h-72 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-96 lg:w-[630px] lg:h-[600px] p-4">
