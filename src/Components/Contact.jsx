@@ -107,7 +107,7 @@ return (
             </p>
             <div className="space-y-4">
               <p className="text-gray-600 font-sans text-md sm:text-lg md:text-lg lg:text-lg">
-                Fill out the form below or contact us directly via email : <span className='text-blue-700 underline cursor-pointer'></span>
+                Fill out the form below or contact us directly via email : <span className='text-blue-700 underline'> awwaltextiles@gmail.com</span>
               </p>
             </div>
           </div>

@@ -65,7 +65,7 @@ const Abouts = () => {
         {/* Contact info and final tagline */}
         <div className="mt-8">
           <p className="text-gray-600 font-sans text-md sm:text-lg md:text-lg lg:text-lg mb-2">
-            <span role="img" aria-label="email">📧</span> Email: <span className='text-blue-700 underline cursor-pointer'> awwaltextiles@gmail.com</span>
+            <span role="img" aria-label="email">📧</span> Email: <span className='text-blue-700 underline'> awwaltextiles@gmail.com</span>
           </p>
           <p className="text-gray-800 font-semibold font-sans text-md sm:text-lg md:text-lg lg:text-lg">
             AWWAL Textiles – Your trusted clothing partner for quality, style, and growth
