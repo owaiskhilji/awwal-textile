@@ -1,15 +1,7 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from 'react';
 import DynamicCard from '../Components/HouseHold/HouseHoldDynamicCard';
 
 function HouseHold() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // animation speed in ms
-      once: true, // only animate once
-    });
-  }, []);
 
   return (
     <div className='mt-32 pb-12'>
@@ -17,7 +9,6 @@ function HouseHold() {
       <div className="flex justify-center w-full px-auto mt-[30px] ">
         {/* <HeroSection /> */}
         <h1
-          data-aos="fade-right"
           className="font-[inter] text-3xl sm:text-4xl lg:text-6xl md:text-6xl font-semibold mb-4"
         >
           HouseHolds Items

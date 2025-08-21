@@ -7,7 +7,8 @@ import Shirt from "../../assets/main/capes.png";
 import Shirt2 from "../../assets/main/men-cotes.jpg";
 import Paint from "../../assets/main/men-track-sute-2.jpg";
 import Paint2 from "../../assets/main/men-tracksute.jpg";
-import Hoodie from "../../assets/main/mens pritnted.png";
+import Hoodie from "../../assets/main/mens-pritnted.png";
+import cap from "../../assets/main/cap.png";
 
 const DynamicCard = () => {
   useEffect(() => {
@@ -115,6 +116,26 @@ const DynamicCard = () => {
           </p>
         </div>
       </div>
+
+            {/* Card 6 */}
+      <div
+      data-aos="fade-up"
+      className="md:w-[770px] lg:w-full flex flex-col md:flex-row-reverse items-center gap-4">
+        <div className="mx-auto card bg-base-100 w-64 h-64 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-[385px] lg:w-[630px] lg:h-[600px] shadow-sm">
+          <figure>
+            <img src={cap} alt="Tailored Formal Pants" className="w-full h-full object-cover" />
+          </figure>
+        </div>
+        <div
+          className="flex flex-col justify-center items-center shadow-sm shadow-black w-64 h-72 sm:w-[620px] sm:h-[620px] md:w-[385px] md:h-96 lg:w-[630px] lg:h-[600px] p-4"
+        >
+          <h2 className="text-center text-2xl font-bold mb-2">Awwal Textiles Cap</h2>
+          <p className="description text-center text-gray-600 w-full lg:w-96">
+            A clean white cap displays "Awwal Textiles" in bold black lettering. This simple design offers a professional and versatile look. Perfect for representing the brand or for everyday casual wear
+          </p>
+        </div>
+      </div>
+
 
     </div>
   );

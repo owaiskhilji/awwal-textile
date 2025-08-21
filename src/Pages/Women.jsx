@@ -6,9 +6,7 @@ function Woomen() {
     <div className='mt-32 pb-12'>
       {/* Heading */}
       <div className="flex justify-center w-full px-auto mt-[30px] ">
-        <h1
-          // data-aos="fade-right"
-                     className="font-[inter] text-3xl sm:text-4xl lg:text-6xl md:text-6xl font-semibold mb-4"
+        <h1        className="font-[inter] text-3xl sm:text-4xl lg:text-6xl md:text-6xl font-semibold mb-4"
         >
           Women Collection
         </h1>

@@ -78,11 +78,11 @@ const handleLinkClick = () => {
   </button>
   {isDesktopGalleryOpen && (
     <ul className="absolute top-full left-1/2 -translate-x-1/2 bg-white shadow-xl rounded-lg p-2 mt-3 w-40">
-      <li><Link onClick={handleLinkClick} to="/men" className="block px-4 py-2 text-gray-700 hover:bg-gray-300 rounded-md">Men</Link></li>
-      <li><Link onClick={handleLinkClick} to="/women" className="block px-4 py-2 text-gray-700 hover:bg-gray-300 rounded-md">Women</Link></li>
-      <li><Link onClick={handleLinkClick} to="/kids" className="block px-4 py-2 text-gray-700 hover:bg-gray-300 rounded-md">Kids</Link></li>
-      <li><Link onClick={handleLinkClick} to="/uniform" className="block px-4 py-2 text-gray-700 hover:bg-gray-300 rounded-md">Uniform</Link></li>
-      <li><Link onClick={handleLinkClick} to="/house" className="block px-4 py-2 text-gray-700 hover:bg-gray-300 rounded-md">HouseHold</Link></li>
+      <li><Link onClick={handleLinkClick} to="/men" className="block px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-300 rounded-md hover:font-normal">Men</Link></li>
+      <li><Link onClick={handleLinkClick} to="/women" className="block px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-300 rounded-md hover:font-normal">Women</Link></li>
+      <li><Link onClick={handleLinkClick} to="/kids" className="block px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-300 rounded-md hover:font-normal">Kids</Link></li>
+      <li><Link onClick={handleLinkClick} to="/uniform" className="block px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-300 rounded-md hover:font-normal">Uniform</Link></li>
+      <li><Link onClick={handleLinkClick} to="/house" className="block px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-300 rounded-md hover:font-normal">HouseHold</Link></li>
     </ul>
   )}
 </div>
