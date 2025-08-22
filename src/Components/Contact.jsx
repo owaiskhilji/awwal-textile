@@ -72,21 +72,21 @@ return (
                 type="text"
                 name="name" 
                 placeholder="Name"
-                className="w-full bg-gray-100 px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gray-600"
+                className="text-gray-900 w-full bg-gray-100 px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gray-600"
                 required
               />
               <input
                 type="email"
                 name="email" 
                 placeholder="Email"
-                className="w-full bg-gray-100 px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gray-600"
+                className="text-gray-900 w-full bg-gray-100 px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gray-600"
                 required
               />
               <textarea
                 name="message" 
                 placeholder="Message"
                 rows={5}
-                className="w-full bg-gray-100 px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gray-600"
+                className="text-gray-900 w-full bg-gray-100 px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gray-600"
                 required
               ></textarea>
               <button

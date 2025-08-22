@@ -13,10 +13,10 @@ export default function TableBook() {
 
   return (
     <>
-<dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
-  <div className="modal-box">
-    <h3 className="font-bold text-lg font-merriweather">Contact AWWAL Textiles</h3>
-    <p className="py-4 font-playfair">We’d love to hear from you! Whether you have questions, want to discuss a custom order, or need more information about our products, feel free to reach out to us.
+<dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle ">
+  <div className="modal-box bg-white">
+    <h3 className="font-bold text-lg font-merriweather text-gray-900">Contact AWWAL Textiles</h3>
+    <p className="py-4 font-playfair text-gray-600">We’d love to hear from you! Whether you have questions, want to discuss a custom order, or need more information about our products, feel free to reach out to us.
 <br/>
 You can email us directly at :
  <span className="cursor-pointer text-blue-600 underline"

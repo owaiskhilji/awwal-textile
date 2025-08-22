@@ -101,7 +101,7 @@ const handleLinkClick = () => {
                 {/* Mobile Hamburger & Email Icon */}
                 <div className="flex items-center space-x-4 md:space-x-8">
                     <button onClick={openModal} className="hover:bg-gray-300 p-1 rounded-[5px] transition-colors duration-300">
-                        <MdEmail size={28} />
+                        <MdEmail size={28} className="text-black"/>
                     </button>
                     <button onClick={toggleMobileMenu} className="md:hidden text-gray-600 hover:text-textcolor focus:outline-none">
                         <svg className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">

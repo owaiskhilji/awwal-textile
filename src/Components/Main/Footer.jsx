@@ -7,8 +7,8 @@ export default function Footer() {
         <p className="text-black font-[500px] text-[15px] leading-loose">AWWAL Textiles. All rights reserved.</p>
 
         <ul className="flex space-x-8 gap-y-3 max-lg:justify-center flex-wrap">
-          <li className="font-[inter] text-[15px] text-black">About us</li>
-          <li className="font-[inter] text-[15px] text-black">Contact</li>
+          <li className="font-[inter] text-[15px] text-black hover:underline"><Link to="/about">About us</Link></li>
+          <li className="font-[inter] text-[15px] text-black hover:underline"><Link to="/contact">Contact</Link></li>
         </ul>
       </div>
     </footer>
